@@ -1,0 +1,63 @@
+*
+{
+	padding: 0;
+	margin: 0;
+}
+body
+{
+	background-image:linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)), url(Keren.jpg);
+	background-size: cover;
+	background-position: center;
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+.De
+{
+	background-color: #708090;
+	text-align: center;
+}
+.De ul  
+{
+	display: inline-flex;
+	list-style: none;
+	color: #fff;
+}
+.De ul li 
+{
+	width: 170px;
+	margin: 15px;
+	padding: 15px;	
+}
+.De ul li a
+{
+	text-decoration:none;
+	color: #fff;
+} 
+.active, .De ul li:hover
+{
+	background: #b0c4de;
+	border-radius: 3px;
+}
+.title
+{
+	position: absolute;
+	top: 40%;
+	left: 50%;
+	transform: translate(-50%,-50%)
+}
+.title h1{
+	color: #fff;
+	font-size:70px;
+}
+.isi
+{
+	position: absolute;
+	top: 55%;
+	left: 50%;
+	transform: translate(-50%,-50%)
+}
+.isi h1{
+	color: #fff;
+	font-size:12px;
+}
+

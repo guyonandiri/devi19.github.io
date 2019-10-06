@@ -1,0 +1,144 @@
+*
+{
+	padding: 0;
+	margin: 0;
+}
+body
+{
+	background-image:linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)), url(Keren.jpg);
+	background-size: cover;
+	background-position: center;
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+.De
+{
+	background-color: #708090;
+	text-align: center;
+}
+.De ul  
+{
+	display: inline-flex;
+	list-style: none;
+	color: #fff;
+}
+.De ul li 
+{
+	width: 170px;
+	margin: 15px;
+	padding: 15px;	
+}
+.De ul li a
+{
+	text-decoration:none;
+	color: #fff;
+} 
+.active, .De ul li:hover
+{
+	background: #b0c4de;
+	border-radius: 3px;
+}
+.sub-menu-1
+{
+	display: none;
+}
+.De ul li:hover .sub-menu-1
+{
+	display: block;
+	position: absolute;
+	background-color: #708090;
+	margin-top: 15 px;
+	margin-left: -15px;
+}	
+.De ul li:hover .sub-menu-1 ul
+{
+	display: block;
+	margin: 10px;
+}
+.De ul li:hover .sub-menu-1 ul li
+{
+	width: 150px;
+	padding: 10px;
+	border-bottom: 1px dotted #fff;
+	background: transparent;
+	border-radius: 0;
+	text-align: left;
+}
+.De ul li:hover .sub-menu-1 ul li:last-child
+{
+	border-bottom:none;
+}
+.De ul li:hover .sub-menu-1 ul li a:hover
+{
+	background: #b0c4de;
+}
+.sub-menu-2
+{
+	display: none;
+}
+.De ul li:hover .sub-menu-2
+{
+	display: block;
+	position: absolute;
+	background-color: #708090;
+	margin-top: 15 px;
+	margin-left: -15px;
+}	
+.De ul li:hover .sub-menu-2 ul
+{
+	display: block;
+	margin: 10px;
+}
+.De ul li:hover .sub-menu-2 ul li
+{
+	width: 150px;
+	padding: 10px;
+	border-bottom: 1px dotted #fff;
+	background: transparent;
+	border-radius: 0;
+	text-align: left;
+}
+.De ul li:hover .sub-menu-2 ul li:last-child
+{
+	border-bottom:none;
+}
+.De ul li:hover .sub-menu-2 ul li a:hover
+{
+	background: #b0c4de;
+}
+.Re{
+	width: 390px;
+	height: 400px;
+	background-color: #708090;
+	text-align: center;
+	border-radius: 10px;
+	margin: 0 auto;
+	margin-top:100px;
+}
+.Re img{
+	width:120px;
+	height:120px;
+	margin-top: 20px;
+	margin-bottom:30px;
+}
+input[type="text"],input[type="password"]{
+	height: 45px;
+	width:300px;
+	font-size: 16px;
+	border: none;
+	margin-bottom: 20px;
+	border-radius: 10px;
+	background-color: #fff;
+}
+.btn-login{
+	padding: 10px 30px;
+	color: #fff;
+	border-radius: 10px;
+	border: none;
+	background-color: Red;
+}
+a {
+	color: black;
+}
+
+	
