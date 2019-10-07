@@ -125,3 +125,18 @@ body
 	height:100px;
 	
 }
+@media screen and (max-width: 780px) {
+	
+	.header {
+		text-align: center;
+	}
+	.De {
+		width: auto;
+		float: none;
+	}
+	
+	.Re {
+		width: auto;
+		float: none;
+	}
+}
