@@ -149,6 +149,9 @@ body
 		width: auto;
 		float: none;
 		display: block;
+		cursor: pointer;
+		color: #FFF;
+ 		padding: 10px 15px;
 	}
 	.De ul li {
 		width: auto;
@@ -168,14 +171,20 @@ body
 	.button {
 		width: auto;
 		float: none;
+		position: relative;
+   		margin: 0px;
+    		padding: 0px;
+    		top: 0px;
+   		background: #334;
+    		width: 100%;
 	}
 	.btn
-	 {
+	{
 		width: auto;
 		float: none;
 	}
 	
-	.isi {
+	.title{
 		width: auto;
 		float: none;
 	}
