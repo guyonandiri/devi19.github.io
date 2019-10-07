@@ -106,6 +106,16 @@ body
 {
 	background: #b0c4de;
 }
+.Re{
+	width: 700px;
+	height: 1000px;
+	background-color: #708090;
+	text-align: center;
+	border-radius: 10px;
+	margin: 0 auto;
+	margin-top:40px;
+	text-align: left;
+}
 .title
 {
 	position: absolute;
@@ -135,22 +145,29 @@ body
 	background-color: blue;
 	color: #000;
 }
-@media screen and (max-width: 780px) {
+@media screen and (max-width: 500px) {
 	
 	.header {
+		Display: block;
 		text-align: center;
 	}
 	.De {
+		Display: block;
 		width: auto;
 		float: none;
 	}
+	.De ul li {
+		Display: block;
+		Margin: absolute;
 	
 	.title {
+		Display: block;
 		width: auto;
 		float: none;
 	}
 	
 	.btn {
+		Display: block;
 		width: auto;
 		float: none;
 	}
