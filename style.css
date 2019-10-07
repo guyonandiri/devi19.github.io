@@ -148,35 +148,21 @@ body
 	.De ul  {
 		width: auto;
 		float: none;
-		display: block;
-		cursor: pointer;
-		color: #FFF;
- 		padding: 10px 15px;
 	}
 	.De ul li {
 		width: auto;
 		float: none;
-		display: block;
-		display: none;
-		padding: 0px;
-                position: absolute;
-                top: 1.6em;
-                width: 200px;
+		
 	}
 	.De ul li a {
 		width: auto;
 		float: none;
-		display: block;
+		
 	}
 	.button {
 		width: auto;
 		float: none;
-		position: relative;
-   		margin: 0px;
-    		padding: 0px;
-    		top: 0px;
-   		background: #334;
-    		width: 100%;
+		
 	}
 	.btn
 	{
