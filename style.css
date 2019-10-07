@@ -154,6 +154,11 @@ body
 		width: auto;
 		float: none;
 		display: block;
+		display: none;
+		padding: 0px;
+                position: absolute;
+                top: 1.6em;
+                width: 200px;
 	}
 	.De ul li a {
 		width: auto;
