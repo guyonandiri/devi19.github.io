@@ -121,5 +121,21 @@ body
 filter: grayscale(100%);
 transform: scale(1,1)
 }
+@media screen and (max-width: 780px) {
+	
+	.header {
+		text-align: center;
+	}
+	.De {
+		width: auto;
+		float: none;
+	}
+	.gal {
+		width: auto;
+		float: none;
+	}
+
+}
+
 
 	
