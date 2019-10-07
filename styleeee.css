@@ -134,4 +134,26 @@ body
 	background-color: blue;
 	color: #000;
 }
+@media screen and (max-width: 780px) {
+	
+	.header {
+		text-align: center;
+	}
+	.De {
+		width: auto;
+		float: none;
+	}
+	
+	.title {
+		width: auto;
+		float: none;
+	}
+	
+	.btn {
+		width: auto;
+		float: none;
+	}
+
+}
+
 	
