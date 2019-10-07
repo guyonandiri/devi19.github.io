@@ -117,24 +117,19 @@ body
 	color: #fff;
 	font-size:70px;
 }
-.button {
+
+.isi
+{
 	position: absolute;
-	top: 60%;
+	top: 55%;
 	left: 50%;
 	transform: translate(-50%,-50%)
 }
-.btn {
-	border: 1px solid #fff;
-	padding: 10px 30px;
+.isi h1{
 	color: #fff;
-	text-decoration: none;
-	transition: 0.6s ease;
+	font-size:12px;
 }
-.btn:hover {
-	background-color: #fff;
-	color: #000;
-}
-@media screen and (max-width: 780px) {
+@media screen and (max-width: 500px) {
 	
 	.header {
 		text-align: center;
@@ -159,16 +154,7 @@ body
 		float: none;
 		
 	}
-	.button {
-		width: auto;
-		float: none;
-		
-	}
-	.btn
-	{
-		width: auto;
-		float: none;
-	}
+	
 	
 	.title{
 		width: auto;
