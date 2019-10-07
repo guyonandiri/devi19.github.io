@@ -3,7 +3,6 @@
 	padding: 0;
 	margin: 0;
 }
-@media screen and (max-width: 460px) {
 body
 {
 	background-image:linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)), url(Keren.jpg);
@@ -135,5 +134,48 @@ body
 	background-color: #fff;
 	color: #000;
 }
+@media screen and (max-width: 780px) {
+	
+	.header {
+		text-align: center;
+	}
+	.De {
+		width: auto;
+		float: none;
+		display: block;
+	}
+	
+	.De ul  {
+		width: auto;
+		float: none;
+		display: block;
+	}
+	.De ul li {
+		width: auto;
+		float: none;
+		display: block;
+	}
+	.De ul li a {
+		width: auto;
+		float: none;
+		display: block;
+	}
+	.button {
+		width: auto;
+		float: none;
+	}
+	.btn
+	 {
+		width: auto;
+		float: none;
+	}
+	
+	.isi {
+		width: auto;
+		float: none;
+	}
+
 }
+
+
 	
