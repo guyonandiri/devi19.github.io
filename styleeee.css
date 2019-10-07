@@ -117,24 +117,8 @@ body
 	color: #fff;
 	font-size:70px;
 }
-.button {
-	position: absolute;
-	top: 70%;
-	left: 50%;
-	transform: translate(-50%,-50%)
-}
-.btn {
-	border: 5px solid #fff;
-	padding: 80px 80px;
-	color: #fff;
-	text-decoration: arial;
-	transition: 0.5s ease;
-}
-.btn:hover {
-	background-color: blue;
-	color: #000;
-}
-@media screen and (max-width: 780px) {
+
+@media screen and (max-width: 500px) {
 	
 	.header {
 		text-align: center;
