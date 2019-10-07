@@ -140,5 +140,26 @@ input[type="text"],input[type="date"],input[type="password"]
 	background-color: Red;
 }
 
+@media screen and (max-width: 780px) {
+	
+	.header {
+		text-align: center;
+	}
+	.De {
+		width: auto;
+		float: none;
+	}
+	
+	.Re {
+		width: auto;
+		float: none;
+	}
+	
+	.btn {
+		width: auto;
+		float: none;
+	}
+
+}
 
 	
