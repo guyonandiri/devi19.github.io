@@ -105,3 +105,14 @@ body
 .De ul li:hover .sub-menu-2 ul li a:hover
 {
 	background: #b0c4de;
+	@media screen and (max-width: 780px) {
+	
+	.header {
+		text-align: center;
+	}
+	.De {
+		width: auto;
+		float: none;
+	}
+
+}
